@@ -77,6 +77,7 @@ namespace ContactsAppUI
             this.SurnameTextBox.Name = "SurnameTextBox";
             this.SurnameTextBox.Size = new System.Drawing.Size(284, 20);
             this.SurnameTextBox.TabIndex = 6;
+            this.SurnameTextBox.TextChanged += new System.EventHandler(this.SurnameTextBox_TextChanged);
             // 
             // label1
             // 
@@ -103,6 +104,7 @@ namespace ContactsAppUI
             this.VKTextBox.Name = "VKTextBox";
             this.VKTextBox.Size = new System.Drawing.Size(284, 20);
             this.VKTextBox.TabIndex = 11;
+            this.VKTextBox.TextChanged += new System.EventHandler(this.VKTextBox_TextChanged);
             // 
             // label3
             // 
@@ -120,6 +122,7 @@ namespace ContactsAppUI
             this.EmailTextBox.Name = "EmailTextBox";
             this.EmailTextBox.Size = new System.Drawing.Size(284, 20);
             this.EmailTextBox.TabIndex = 10;
+            this.EmailTextBox.TextChanged += new System.EventHandler(this.EmailTextBox_TextChanged);
             // 
             // label4
             // 
@@ -137,6 +140,7 @@ namespace ContactsAppUI
             this.PhoneTextBox.Name = "PhoneTextBox";
             this.PhoneTextBox.Size = new System.Drawing.Size(284, 20);
             this.PhoneTextBox.TabIndex = 9;
+            this.PhoneTextBox.TextChanged += new System.EventHandler(this.PhoneTextBox_TextChanged);
             // 
             // label5
             // 
@@ -153,6 +157,7 @@ namespace ContactsAppUI
             this.BirthdayTimePicker.Name = "BirthdayTimePicker";
             this.BirthdayTimePicker.Size = new System.Drawing.Size(139, 20);
             this.BirthdayTimePicker.TabIndex = 8;
+            this.BirthdayTimePicker.ValueChanged += new System.EventHandler(this.BirthdayTimePicker_ValueChanged);
             // 
             // label6
             // 
@@ -170,6 +175,7 @@ namespace ContactsAppUI
             this.NameTextBox.Name = "NameTextBox";
             this.NameTextBox.Size = new System.Drawing.Size(284, 20);
             this.NameTextBox.TabIndex = 7;
+            this.NameTextBox.TextChanged += new System.EventHandler(this.NameTextBox_TextChanged);
             // 
             // OKButton
             // 
@@ -180,6 +186,7 @@ namespace ContactsAppUI
             this.OKButton.TabIndex = 19;
             this.OKButton.Text = "OK";
             this.OKButton.UseVisualStyleBackColor = true;
+            this.OKButton.Click += new System.EventHandler(this.OKButton_Click);
             // 
             // CancleButton
             // 
@@ -190,6 +197,7 @@ namespace ContactsAppUI
             this.CancleButton.TabIndex = 20;
             this.CancleButton.Text = "Cancel";
             this.CancleButton.UseVisualStyleBackColor = true;
+            this.CancleButton.Click += new System.EventHandler(this.CancleButton_Click);
             // 
             // ContactsForm
             // 
@@ -199,8 +207,10 @@ namespace ContactsAppUI
             this.Controls.Add(this.ContactGroupBox);
             this.Controls.Add(this.OKButton);
             this.Controls.Add(this.CancleButton);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MinimumSize = new System.Drawing.Size(402, 277);
             this.Name = "ContactsForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "ContactsForm";
             this.ContactGroupBox.ResumeLayout(false);
             this.ContactGroupBox.PerformLayout();

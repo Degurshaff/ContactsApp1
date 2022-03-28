@@ -3,7 +3,7 @@ using System.IO;
 using Newtonsoft.Json;
 namespace ContactsApp
 {
-    public class ProectManager
+    public class ProjectManager
     {
         /// <summary>
         /// Имя файла для сериализации/десериализации данных

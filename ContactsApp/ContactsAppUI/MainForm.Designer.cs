@@ -81,6 +81,7 @@
             this.FindTextBox.Name = "FindTextBox";
             this.FindTextBox.Size = new System.Drawing.Size(176, 20);
             this.FindTextBox.TabIndex = 37;
+            this.FindTextBox.TextChanged += new System.EventHandler(this.FindTextBox_TextChanged);
             // 
             // EditContactButton
             // 
@@ -94,6 +95,7 @@
             this.EditContactButton.Size = new System.Drawing.Size(40, 37);
             this.EditContactButton.TabIndex = 36;
             this.EditContactButton.UseVisualStyleBackColor = true;
+            this.EditContactButton.Click += new System.EventHandler(this.EditContactButton_Click);
             // 
             // RemoveContactButton
             // 
@@ -107,6 +109,7 @@
             this.RemoveContactButton.Size = new System.Drawing.Size(35, 35);
             this.RemoveContactButton.TabIndex = 35;
             this.RemoveContactButton.UseVisualStyleBackColor = true;
+            this.RemoveContactButton.Click += new System.EventHandler(this.RemoveContactButton_Click);
             // 
             // AddButton
             // 
@@ -121,6 +124,7 @@
             this.AddButton.Size = new System.Drawing.Size(40, 35);
             this.AddButton.TabIndex = 32;
             this.AddButton.UseVisualStyleBackColor = true;
+            this.AddButton.Click += new System.EventHandler(this.OKbutton_Click);
             // 
             // label8
             // 
@@ -153,6 +157,7 @@
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(93, 22);
             this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // editToolStripMenuItem
             // 
@@ -166,18 +171,21 @@
             this.addContactToolStripMenuItem.Name = "addContactToolStripMenuItem";
             this.addContactToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.addContactToolStripMenuItem.Text = "Add contact";
+            this.addContactToolStripMenuItem.Click += new System.EventHandler(this.addContactToolStripMenuItem_Click_1);
             // 
             // editContactToolStripMenuItem
             // 
             this.editContactToolStripMenuItem.Name = "editContactToolStripMenuItem";
             this.editContactToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.editContactToolStripMenuItem.Text = "Edit contact";
+            this.editContactToolStripMenuItem.Click += new System.EventHandler(this.editContactToolStripMenuItem_Click);
             // 
             // removeContactToolStripMenuItem
             // 
             this.removeContactToolStripMenuItem.Name = "removeContactToolStripMenuItem";
             this.removeContactToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.removeContactToolStripMenuItem.Text = "Remove contact";
+            this.removeContactToolStripMenuItem.Click += new System.EventHandler(this.removeContactToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 
@@ -191,6 +199,7 @@
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click_1);
             // 
             // BirthdayTextBox
             // 
@@ -358,6 +367,8 @@
             this.ContactsListBox.Name = "ContactsListBox";
             this.ContactsListBox.Size = new System.Drawing.Size(207, 355);
             this.ContactsListBox.TabIndex = 33;
+            this.ContactsListBox.SelectedIndexChanged += new System.EventHandler(this.ContactsListBox_SelectedIndexChanged);
+            this.ContactsListBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ContactsListBox_KeyDown);
             // 
             // MainForm
             // 
@@ -374,7 +385,9 @@
             this.Controls.Add(this.ContactsListBox);
             this.MinimumSize = new System.Drawing.Size(590, 402);
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Контакты";
+        
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.BirthdayPanel.ResumeLayout(false);
