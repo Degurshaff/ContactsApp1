@@ -108,5 +108,10 @@
         <Name>ContactsApp</Name>
       </ProjectReference>
     </ItemGroup>
+    <ItemGroup>
+      <Content Include="Images\Create_New_icon-icons.com_55937 (1).png" />
+      <Content Include="Images\pen_line_icon_172959 (1).png" />
+      <Content Include="Images\user_circle_plus_icon_172812.png" />
+    </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
