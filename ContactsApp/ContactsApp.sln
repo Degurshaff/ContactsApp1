@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContactsAppUI", "ContactsAppUI", "{52571C63-628E-4AAE-990D-4B091CE33494}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsAppUI", "ContactsAppUI\ContactsAppUI.csproj", "{52528FB7-4157-441D-BFF2-8323EF913E2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContactsApp", "ContactsApp", "{1198BC5B-1253-4CB0-AB81-311800AE34B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsApp", "ContactsApp\ContactsApp.csproj", "{F3FC17B4-6ABF-48E4-B90C-83B160A4B8A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52528FB7-4157-441D-BFF2-8323EF913E2A} = {52571C63-628E-4AAE-990D-4B091CE33494}
+		{F3FC17B4-6ABF-48E4-B90C-83B160A4B8A8} = {1198BC5B-1253-4CB0-AB81-311800AE34B8}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52528FB7-4157-441D-BFF2-8323EF913E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52528FB7-4157-441D-BFF2-8323EF913E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52528FB7-4157-441D-BFF2-8323EF913E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52528FB7-4157-441D-BFF2-8323EF913E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3FC17B4-6ABF-48E4-B90C-83B160A4B8A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3FC17B4-6ABF-48E4-B90C-83B160A4B8A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3FC17B4-6ABF-48E4-B90C-83B160A4B8A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3FC17B4-6ABF-48E4-B90C-83B160A4B8A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
