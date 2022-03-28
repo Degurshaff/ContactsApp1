@@ -120,13 +120,13 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="EditContactButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        xAAADsQBlSsOGwAAARlJREFUWEftlcFtwkAQRX0IuaaCFMEhh3RBaiLQQZoIJIQDFaEoJ1oA/os8kmXZ
-        Ozsyy2mf9ITttfd/ey3TVCoFeZAr+dvKNsfuAkGf8iLPrWy/y+IQvpEEnuSLfJWUOMqiEL6VFj6XQIns
-        AlwckbsleCaHwvlln+NZS9Cd3LMb/tUeGwu3c11s8lwI/5apcJ5MVjhECtw8HHILEL6TqXCWJRQOOQUI
-        /5FeOOeF8Qo8Si+cZSE8fPfgFVjIVDjLYuF8DcN4BZaS8fX/3nA42Kc4jFfgIBn/kPzBWDjL0l1zb55R
-        vAv/pJ1j7mX/hbOxMKkLnyVjlOBJsBxvkhezT5ECT5ISORQpEKEWqAUmF7iVYYYmmWKlkqBprolzxiJR
-        ubq/AAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEZSURBVFhH7ZXBbcJAEEV9CLmmghTBIYd0QWoi0EGaCCSE
+        AxWhKCdaAP6LPJJl2Ts7Mstpn/SE7bX3f3st01QqBXmQK/nbyjbH7gJBn/Iiz61sv8viEL6RBJ7ki3yV
+        lDjKohC+lRY+l0CJ7AJcHJG7JXgmh8L5ZZ/jWUvQndyzG/7VHhsLt3NdbPJcCP+WqXCeTFY4RArcPBxy
+        CxC+k6lwliUUDjkFCP+RXjjnhfEKPEovnGUhPHz34BVYyFQ4y2LhfA3DeAWWkvH1/95wONinOIxX4CAZ
+        /5D8wVg4y9Jdc2+eUbwL/6SdY+5l/4WzsTCpC58lY5TgSbAcb5IXs0+RAk+SEjkUKRChFqgFJhe4lWGG
+        JplipZKgaa6Jc8YiUbm6vwAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="RemoveContactButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
