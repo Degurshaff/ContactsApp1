@@ -175,7 +175,7 @@ namespace ContactsAppUI
             this.Controls.Add(this.NameLabel);
             this.MinimumSize = new System.Drawing.Size(330, 370);
             this.Name = "AboutForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AboutForm";
             this.ResumeLayout(false);
             this.PerformLayout();
