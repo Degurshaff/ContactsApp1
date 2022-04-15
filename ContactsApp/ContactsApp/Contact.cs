@@ -65,8 +65,7 @@ namespace ContactsApp
             {
                 if (value.ToString().Length>50)
                 {
-                    throw new AggregateException("Длина имени не может превышать 50 символов"
-                                                 + value + "слишком длинно");
+                    throw new ArgumentException("ДЛина имени не может быть больше 50 символов" + value + "Слишком длинно");
                 }
                 else
                 {
